@@ -26,6 +26,17 @@
             @endforeach
         </select>
     </div>
+
+    <div class="mb-3 form-group" >
+        <h4>Tecnologie</h4>
+        <div class="form-check">
+            @foreach ($technologies as $technology)
+                <input type="text">
+                <label for="">{{$technology->name}}</label>
+            @endforeach
+
+        </div>
+    </div>
     
     
 
