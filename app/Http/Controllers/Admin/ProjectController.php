@@ -7,7 +7,7 @@ use App\Models\Project;
 use App\Models\Technology;
 use App\Models\Type;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Storage;
 class ProjectController extends Controller
 {
     /**
@@ -43,7 +43,7 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
